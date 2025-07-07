@@ -1,16 +1,52 @@
-<<<<<<< HEAD
-# React + Vite
+# Material UI Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React weather application for students, using Material UI for a modern look. Enter a city name to get the current weather, temperature, humidity, and more—displayed in a beautiful card with dynamic images!
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌤️ Search for any city’s current weather
+- 📦 Built with React and Material UI
+- 🖼️ Weather card with changing images for hot, cold, and rainy conditions
+- 🌡️ Displays temperature, humidity, min/max temp, and “feels like”
+- 🔎 Clean, student-friendly code and UI
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# materialui-weather-app
->>>>>>> ca3a4174fc1d2860e97e25469c24051838fda5d7
+![Weather App Screenshot](https://user-images.githubusercontent.com/your-screenshot.png)
+*(Add your own screenshot here!)*
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ankit-rawat-99/materialui-weather-app.git
+cd materialui-weather-app
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+## How It Works
+
+- Enter a city name and click **Search**.
+- The app fetches weather data from the [OpenWeatherMap API](https://openweathermap.org/).
+- The weather card updates with the latest info and a relevant image.
+
+## Technologies Used
+
+- [React](https://react.dev/)
+- [Material UI](https://mui.com/)
+- [OpenWeatherMap API](https://openweathermap.org/)
+
